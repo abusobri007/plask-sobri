@@ -14,6 +14,6 @@ while (True):
     jawab = "ya"
     hitung = 0
     while jawab == 'ya':
-         hitung += 1 
-         jawab = input("ulangi lagi ? ya / tidak : ")
+         hitung += 5 
+         jawab = input(F" pasword anda salah bro,ulangi lagi ? ya / tidak : ")
          print(f"total perulangan :{hitung}")
