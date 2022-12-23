@@ -19,14 +19,14 @@ if m == 1:
    print(f"total tagihan :{pertamax*total} ")
 
 elif m == 2:
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan :{pertamax_turbo*total} ")
 
 
 
 elif m == 3:
     
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan :{pertamax_plus*total} ")
 
 
@@ -34,7 +34,7 @@ elif m == 3:
 
 elif m == 4:
     
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan :{pertalite*total} ")
 
 
@@ -42,21 +42,23 @@ elif m == 4:
 
 elif m == 5:
     
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan :{pertamina_dex*total} ")
 
 
 
 elif m == 6:
     
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan :{dextlite*total} ")
 
 
 
 elif m == 7:
-    total = int(input("masuukan total bahan bakar"))
+    total = int(input("masuukan total bahan bakar :"))
     print(f"total tagihan  :{solar*total} ")
+
+else : print("--------------Terimaksi telah berkunjung-------------")
 
 
     
