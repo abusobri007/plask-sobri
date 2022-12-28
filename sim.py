@@ -1,6 +1,10 @@
-umur = int(input("masukkan umur anda : "))
+
+print("------------pormulir pembuatan sim----------------------")
+umur = int(input("masukkan usia  anda : "))
 if umur >=17:
-    print("anda di perbolehkan membuat sim")
+    print("boleh membuat sim")
 else: 
-    print("anda tidak boleh membuat sim")
+    print("anda belum boleh membuat sim")
+    print('-----------------terimaksi-----------------------')
+
     

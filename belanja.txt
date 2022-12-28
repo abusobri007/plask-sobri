@@ -1,0 +1,5 @@
+
+1
+ya
+& C:/Users/ASUS/AppData/Local/Microsoft/WindowsApps/python3.10.exe d:/praktikum/python_zth_trainer/tokobarang.py
+2

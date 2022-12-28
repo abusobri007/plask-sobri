@@ -1,0 +1,12 @@
+laptop = ("HP","Dell","ASUS","APPLE","Dell")
+print(laptop)
+print(laptop[2])
+laptop = list(laptop)
+laptop[2]= "ROG"
+laptop = tuple(laptop)
+print(laptop)
+#index()
+print(laptop.index("ROG"))
+print(laptop.index("Dell"))
+#cout()
+print(laptop.count("Dell"))

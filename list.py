@@ -34,8 +34,20 @@ film.sort()
 print(f"mengurutkan berdasarkan nama : {film}")
 print(f"mengurutkan angka dengan secara descending:{angka}")
 #mwmbalikkan data menggunakan reverse
-buah = [ 'ceri', 'namanas','jeruk','anggur','angggur']
+buah = [ 'ceri', 'namanas','jeruk','anggur','salak']
 buah.reverse()
 print(f"dari kecil hingga terbesar  : {angka}")
 #menghitung jumlah item yang sama menggunakan metod count
 print(f"jumlah jeruk : {buah.count('jeruk')}")
+#copy
+buah_buahan = buah.copy()
+print(f"buah-buahan : {buah_buahan} ")
+#multlpe aray
+matrix = [
+    [1,2,3,4,5],
+    [6,7,8,9,10],
+    [11,12,13,14,15]
+]
+print(matrix[1][3])
+matrix[1][4]=21
+print("matrix baru",matrix)
