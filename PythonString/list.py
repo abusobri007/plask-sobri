@@ -27,6 +27,7 @@ print(f"film berhasil di update : {film}")
 film.pop()
 print(f"film berhasil di hapus : {film}")
 #remove
+
 #mengurutkan data dengan menggunakan method sort
 angka = [2,5,3,4,6,4,7,1]
 angka.sort(reverse=True)

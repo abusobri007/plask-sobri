@@ -14,7 +14,7 @@ class Buid():
 
 
 class Room():
-      nama = None
+      name = None
       color = None
 
       def __repr__(self):
@@ -26,7 +26,6 @@ itec.name = "ITEC"
 itec.List_room()
 
 r1 = Room()
-r1.nama = "instagram"
+r1.name = "instagram"
 r1.color = "pink"
 
-r1.nama
