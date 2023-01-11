@@ -1,31 +1,31 @@
-class Buid():
+class Perusahaan():
       name = None
-      room =[]
+      ruang =[]
 
-      def create_room (self,room):
-            self.room.append(room)
+      def create_ (self,ruang):
+            self.ruang.append(ruang)
 
-      def remove_roam(self,room):
-            self.room.append(room)
+      def remove_roam(self,ruang):
+            self.ruang.append(ruang)
 
       def List_room(self):
-            print(f"Ruangan dalam bangunan {self.name} : {self.room}")
+            print(f"Ruangan dalam perusahaan {self.name} : {self.ruang}")
 
 
 
-class Room():
+class Rmanager():
       name = None
-      color = None
+      warna = None
 
       def __repr__(self):
           return self.name
 
 
-itec = Buid()
-itec.name = "ITEC"
-itec.List_room()
+ruang_sekertaris= ()
+ruang_sekertaris.name = "minter"
+ruang_sekertaris.List_room()
 
-r1 = Room()
-r1.name = "instagram"
-r1.color = "pink"
+r1 = ()
+r1.name = ""
+r1.color = "merah"
 
